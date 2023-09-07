@@ -1,0 +1,133 @@
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* The outermost border is 2px whereas the border after it (black one) is 10px. */
+.container1
+{
+ width:100%;
+ /* height:auto; */
+ border: 2px solid white;
+ /* background-color: white; */
+/*this will produce a 10px inner and 2px outer "border*/
+/* The outermost border is 2px whereas the border after it (black one) is 10px. */
+/* outiline: solid 2px white;
+   border:solid 10px black; */
+ }
+ .container2
+ {
+    position: relative;
+    width:100%;
+    border:10px solid black;
+ }
+/* The height of first & second rows are 90 & 80 px respectively. */
+ .blue-box
+ {
+    background-color:#5A95E2;
+    height: 90px;
+
+ }
+    /*In the second row, each box is 25% wide.  */
+.box1
+{
+    display: inline-block;
+    height: 80px;
+    width: 25%;
+    background-color: #E87A44;
+}
+.small-boxes
+{
+    margin: 0;
+    padding: 0;
+    /* position :absolute;  */
+    /* top: 0;
+    left:0; */
+}
+.box2
+{
+    
+    position: absolute;
+    /* position:relative; */
+    display: inline-block;
+    height: 80px;
+    width:25%;
+    background-color:#784100;
+}
+
+.box3
+{
+    left:50%;
+    top:13.4%;
+    right:50%;
+    bottom:75%;
+    
+    position: absolute;
+    /* position:relative; */
+    display: inline-block;
+    height: 80px;
+    width:25%;
+    background-color:#FF7499;
+}
+.box4
+{
+    left:75%;
+    position: absolute;
+    /* position:relative; */
+    display: inline-block;
+    height: 80px;
+    width:25%;
+    background-color:#5A5AB2;
+}
+.black-box
+{
+    position:absolute;
+    left:12.5%;
+    width:75%;    /*75*/
+    height:410px;
+     top:25%;
+    background-color:#121212;
+}
+/* The size of box in the middle is 120x120px. */
+.golden-box
+ { 
+    position:absolute;
+    margin:0 auto;
+    width:120px;
+    height:120px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    background-color:#7F6800;
+    border:white 2px solid;
+}
+/* The two columns (purple & grey) are 12.5% wide. */
+.gray-box
+{
+    position:absolute;
+    right:0px;
+    top:25%;
+    width:12.5%;
+    height:500px;
+    background-color:#42474B;
+}
+
+.pink-box
+{
+    /* position:relative;
+    top:10%;
+    left:0%; */
+    width:12.5%;
+    height:400px;
+    background-color:#CD94E1;
+}
+/* The height of last row is 100px. */
+.green-box
+{
+    position:relative;
+    width:100%;
+    height:100px;
+    background-color:#01763B;
+} 
